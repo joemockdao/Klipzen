@@ -34,12 +34,16 @@
 
 ---
 
-Klipzen is a fast, native SwiftUI video editor built for people who just want to cut, style, and share a video without fighting a bloated timeline app. Import multiple clips, trim and reorder them, add filters, transitions, captions, and music, then export straight to TikTok, Instagram, or YouTube formats — all running locally on your Mac.
+Klipzen is a fast, native SwiftUI video editor for Mac — a free alternative to CapCut and iMovie for people who just want to cut, style, and share a video without fighting a bloated timeline app. Import multiple clips, trim and reorder them, add filters, transitions, captions, and music, then export straight to TikTok, Instagram, or YouTube formats — all running locally on your Mac.
 
 ![Klipzen editor](screenshots/editor.png)
 
 > [!NOTE]
 > **Free & ad-free:** Klipzen is a personal, independent project. No subscriptions, no watermarks, no ads, no account required.
+
+<p align="center">
+  ⭐ If Klipzen is useful to you, <a href="https://github.com/joemockdao/Klipzen/stargazers">starring the repo</a> helps other people find it.
+</p>
 
 ---
 
@@ -88,8 +92,10 @@ Export at Maximum Quality (HEVC/MOV), High Quality (1080p/MP4), or Standard Qual
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/projects.png" alt="Klipzen project list" width="49%"/>
-  <img src="screenshots/export.png" alt="Klipzen export options" width="49%"/>
+  <img src="screenshots/export.png" alt="Klipzen export options" width="80%"/>
+</p>
+<p align="center">
+  <img src="screenshots/toolbar.png" alt="Klipzen editing toolbar: import, voiceover, text to speech, split, canvas, text, subtitles, captions" width="80%"/>
 </p>
 
 ---
@@ -102,7 +108,7 @@ Export at Maximum Quality (HEVC/MOV), High Quality (1080p/MP4), or Standard Qual
 * Klipzen will ask for **Photos** access to import and save videos, and for **Microphone** / **Speech Recognition** access only if you record a voiceover or generate automatic subtitles.
 
 ### Installation
-1. Download the latest `Klipzen.dmg` from the [Latest Releases](https://github.com/joemockdao/Klipzen/releases/latest) page.
+1. Download the latest `.dmg` from the [Latest Releases](https://github.com/joemockdao/Klipzen/releases/latest) page.
 2. Open the DMG file and drag **Klipzen** into your **Applications** folder.
 3. Launch the app and grant permissions when prompted.
 
