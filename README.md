@@ -34,7 +34,7 @@
 
 ---
 
-Klipzen is a fast, native SwiftUI video editor for Mac — a free alternative to CapCut and iMovie for people who just want to cut, style, and share a video without fighting a bloated timeline app. Import multiple clips, trim and reorder them, add filters, transitions, captions, and music, then export straight to TikTok, Instagram, or YouTube formats — all running locally on your Mac.
+Klipzen is a fast, native SwiftUI video editor for Mac — a free solution who just want to cut, style, and share a video without fighting a bloated timeline app. Import multiple clips, trim and reorder them, add filters, transitions, captions, and music, then export straight to TikTok, Instagram, or YouTube formats — all running locally on your Mac.
 
 ![Klipzen editor](screenshots/editor.png)
 
