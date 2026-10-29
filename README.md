@@ -34,7 +34,9 @@
 
 ---
 
-Klipzen is a fast, native SwiftUI video editor for Mac — a free solution who just want to cut, style, and share a video without fighting a bloated timeline app. Import multiple clips, trim and reorder them, add filters, transitions, captions, and music, then export straight to TikTok, Instagram, or YouTube formats — all running locally on your Mac.
+Klipzen is a fast, native SwiftUI video editor for Mac, made for people who want to cut, style, and share a video in minutes. Import multiple clips, trim and reorder them, add filters, transitions, captions, and music, then export in vertical, square, or widescreen formats ready for social media — all running locally on your Mac.
+
+**New in 1.1:** edit your videos by talking to your own AI agent (Claude Code, Codex, OpenCode, or Antigravity). Ask for “a 30-second reel with subtitles” and watch the edit happen live in Klipzen. [Learn more ↓](#-edit-with-your-ai-agent-mac)
 
 ![Klipzen editor](screenshots/editor.png)
 
@@ -51,7 +53,32 @@ Klipzen is a fast, native SwiftUI video editor for Mac — a free solution who j
 
 * **Signed & Notarized**: Every release is signed with a valid Apple **Developer ID** and notarized by Apple's automated notary service, so it opens without security warnings on macOS.
 * **On-Device Processing**: Video composition and export run entirely through Apple's native AVFoundation — your clips are never uploaded anywhere. Automatic subtitles, subtitle translation, and voice translation also run on-device via Apple's Speech and Translation frameworks (macOS 26+ for translation on Mac).
+* **AI Agents Stay Local**: The AI agent connection is off until you switch it on. It only accepts connections from your own Mac (never from the network) and every request needs a secret key that only you can copy. Keep in mind that your agent may send what it reads from the project (for example a transcript or a preview frame) to its own AI service, under that service's terms.
 * **Closed-Source Notice**: This repository hosts precompiled releases only — the source code is private. Independent security audits are always welcome.
+
+---
+
+## 🤖 Edit with Your AI Agent (Mac)
+
+Klipzen can be driven by the AI agent you already use. Describe the video you want, and the agent edits it inside the app while you watch: every change appears live on the timeline, can be undone with ⌘Z, and can be fine-tuned by hand afterwards.
+
+<p align="center">
+  <img src="screenshots/agents.png" alt="Klipzen AI Agents panel: three guided steps to turn on the connection, connect your agent, and try a request" width="60%"/>
+</p>
+
+**What you can ask for**
+* *“Make a 30-second vertical reel from this project with animated subtitles.”*
+* *“Remove the silences and the filler words, then add background music.”*
+* *“Translate the subtitles into Spanish and dub the voice.”*
+* *“Add my logo in the corner and export for Instagram.”*
+* *“Review the project and tell me what to improve before exporting.”*
+
+**Set up in three steps**
+1. In the project list, click the ✨ button and switch on **Allow control from AI agents**.
+2. Pick your agent, click **Copy command**, and paste it once in Terminal (for Codex, **Copy configuration** and paste it into its config file). The panel shows a green check when the agent connects.
+3. Open your agent and ask for an edit. Keep Klipzen open while it works.
+
+**Supported agents:** [Claude Code](https://claude.com/product/claude-code), [Codex](https://github.com/openai/codex), [OpenCode](https://opencode.ai), and [Antigravity](https://antigravity.google). The agent itself (and any account or subscription it requires) is not part of Klipzen.
 
 ---
 
@@ -84,6 +111,9 @@ Import background music, record a voiceover, generate text-to-speech narration, 
 ### 📐 Canvas & Aspect Ratio
 Choose your canvas aspect ratio and background, then override it per export with one-tap presets for **TikTok/Reels (9:16)**, **Instagram (1:1)**, or **YouTube (16:9)** — without touching your original project.
 
+### 🖥️ Built for the Mac
+Full menu bar commands with keyboard shortcuts, and drag & drop: drop videos or audio from Finder onto the editor, or onto the project list to start a new project.
+
 ### 📤 Flexible Export
 Export at Maximum Quality (HEVC/MOV), High Quality (1080p/MP4), or Standard Quality (720p/MP4), and save straight to your Mac or Photos library.
 
@@ -105,6 +135,7 @@ Export at Maximum Quality (HEVC/MOV), High Quality (1080p/MP4), or Standard Qual
 ### Requirements
 * **macOS 14.0** or later (macOS Sonoma and newer)
 * **macOS 26.0** or later is required for the automatic subtitle translation and voice translation features specifically — everything else in the app works from macOS 14.0 up.
+* **AI agent editing** requires one of the supported agents installed on the same Mac (see [Edit with Your AI Agent](#-edit-with-your-ai-agent-mac)). It is optional: the app works fully without it.
 * Klipzen will ask for **Photos** access to import and save videos, and for **Microphone** / **Speech Recognition** access only if you record a voiceover or generate automatic subtitles.
 
 ### Installation
