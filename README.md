@@ -167,6 +167,27 @@ Found a bug or have a feature idea? Your feedback shapes Klipzen.
 
 ---
 
+## 🧩 Other apps by Joe
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/joemockdao/ScreenShotJoe"><img src="https://raw.githubusercontent.com/joemockdao/ScreenShotJoe/main/icon.png" width="64" height="64" alt="ScreenShotJoe"><br><b>ScreenShotJoe</b></a><br>
+      <sub>App Store &amp; Google Play screenshot maker for Mac</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/joemockdao/CleanMacJoe"><img src="https://raw.githubusercontent.com/joemockdao/CleanMacJoe/main/screenshots/icon.png" width="64" height="64" alt="CleanMacJoe"><br><b>CleanMacJoe</b></a><br>
+      <sub>Disk cleaner, duplicate finder &amp; app uninstaller for Mac</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://apps.apple.com/app/sleeprec/id1528754113"><img src="https://raw.githubusercontent.com/joemockdao/ScreenShotJoe/main/screenshots/sleeprec-icon.png" width="64" height="64" alt="SleepRec"><br><b>SleepRec</b></a><br>
+      <sub>Record and understand your sleep sounds — free for iPhone</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📄 License
 
 Klipzen is free to download and use, for personal and commercial projects. The videos you create with it are yours.
