@@ -169,4 +169,10 @@ Found a bug or have a feature idea? Your feedback shapes Klipzen.
 
 ## 📄 License
 
-Free to use. This repository hosts precompiled releases only. Source code is not public.
+Klipzen is free to download and use, for personal and commercial projects. The videos you create with it are yours.
+
+You may not redistribute, sell or modify the app, or reverse engineer it. The source code is private; this repository hosts precompiled releases only.
+
+Klipzen is provided "as is", without warranty of any kind. The author is not liable for any damage arising from its use.
+
+© 2026 Giovanni Trenta
